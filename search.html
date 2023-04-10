@@ -1,0 +1,55 @@
+<html>
+    <head></head>
+    <body>
+        <input class="search" type="search">
+        <style>
+            body{
+                background-color: gray;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100vw;
+                height: 100vh;
+            }
+
+                .search {
+                position:relative;
+                width: 25px;
+                height: 25px;
+                border-radius: 20px;
+                padding: 10px;
+                transition-duration: 500ms;
+                cursor: pointer;
+                background-repeat: no-repeat;
+                font-size: 15px;
+                color: transparent;
+                border: 1px solid white;
+                overflow: hidden;
+                background: url(https://cdn-icons-png.flaticon.com/512/54/54481.png) no-repeat transparent;
+                background-size: 22px;
+                background-position: 45% 50%;
+              }
+              
+            .search:hover {
+                cursor: pointer;
+                border: 1px solid #FF9950;
+                background: url(icons/search.svg) no-repeat transparent;
+                background-size: 22px;
+                background-position: 45% 50%;
+            }
+            
+            .search:focus {
+                width: 200px;
+                cursor: pointer;
+                padding-left: 40px;
+                color: white;
+                outline: none;
+                border: 1px solid #FF9950;
+                background-color: transparent;
+                background: url(icons/search.svg) no-repeat;
+                background-size: 22px;
+                background-position: 10px 50%;
+            }
+        </style>
+    </body>
+</html>
